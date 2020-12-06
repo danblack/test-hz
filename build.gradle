@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'io.github.danblack'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.hazelcast:hazelcast:4.1'
+}
+
